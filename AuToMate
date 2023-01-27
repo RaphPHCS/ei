@@ -5,7 +5,7 @@ s1 !Insert s2
 s2 ?Card s3
 s2 ?Inactive s0
 s3 !Input s4
-s3 !BadRead s
+s3 !BadRead s2
 s4 ?Code s5
 s5 !Money s6
 s5 !BadCode s4
