@@ -15,11 +15,11 @@ s6 ?Medium s8
 s6 ?Big s9
 s6 ?Abort2 s11
 s7 !MoneyS s10
-s7 !NotEnoughS s6
+s7 !DeniedS s6
 s8 !MoneyM s10
-s8 !NotEnoughM s6
+s8 !DeniedM s6
 s9 !MoneyB s10
-s9 !NotEnoughB s6
+s9 !DeniedB s6
 s10 ?Retrieved s11
 s11 !TakeCard s12
 s12 ?CardTaken s0
