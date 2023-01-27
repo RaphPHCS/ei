@@ -1,0 +1,25 @@
+s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13
+s0
+s0 ?Start s1
+s1 !Insert s2
+s2 ?Card s3
+s2 ?Inactive s0
+s3 !Input s4
+s3 !BadRead s
+s4 ?Code s5
+s5 !Money s6
+s5 !BadCode s4
+s5 !Bad3Times s11
+s6 ?Small s7
+s6 ?Medium s8
+s6 ?Big s9
+s6 ?Abort s12
+s7 !MoneyS s10
+s7 !NotEnoughS s6
+s8 !MoneyM s10
+s8 !NotEnoughM s6
+s9 !MoneyB s10
+s9 !NotEnoughB s6
+s10 ?Retrieved s11
+s11 !TakeCard s12
+s12 ?CardTaken s0
