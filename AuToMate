@@ -1,4 +1,4 @@
-s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13
+s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12
 s0
 s0 ?Start s1
 s1 !Insert s2
@@ -13,7 +13,7 @@ s5 !Bad3Times s11
 s6 ?Small s7
 s6 ?Medium s8
 s6 ?Big s9
-s6 ?Abort s12
+s6 ?Abort s11
 s7 !MoneyS s10
 s7 !NotEnoughS s6
 s8 !MoneyM s10
