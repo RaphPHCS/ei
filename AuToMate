@@ -7,13 +7,13 @@ s2 ?Inactive s0
 s3 !Input s4
 s3 !BadRead s2
 s4 ?Code s5
+s4 ?Abort1 s11
 s5 !Money s6
 s5 !BadCode s4
-s5 !Bad3Times s11
 s6 ?Small s7
 s6 ?Medium s8
 s6 ?Big s9
-s6 ?Abort s11
+s6 ?Abort2 s11
 s7 !MoneyS s10
 s7 !NotEnoughS s6
 s8 !MoneyM s10
